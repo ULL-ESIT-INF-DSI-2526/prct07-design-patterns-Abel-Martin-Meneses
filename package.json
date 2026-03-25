@@ -1,0 +1,36 @@
+{
+  "name": "prct07-design-patterns-abel-martin-meneses",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ljLUCty-)",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/ejercicio-3/gestor.js\"",
+    "doc": "typedoc",
+    "test": "vitest run",
+    "coverage": "vitest run tests/* --coverage --coverage.include src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2526/prct07-design-patterns-Abel-Martin-Meneses.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-INF-DSI-2526/prct07-design-patterns-Abel-Martin-Meneses.git/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2526/prct07-design-patterns-Abel-Martin-Meneses#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@vitest/coverage-v8": "^4.0.18",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-tsdoc": "^0.5.0",
+    "globals": "^17.3.0",
+    "prettier": "^3.8.1",
+    "tsc-watch": "^7.2.0",
+    "typedoc": "^0.28.17",
+    "typescript-eslint": "^8.56.0",
+    "vitest": "^4.0.18"
+  }
+}
