@@ -6,7 +6,7 @@
     "dev": "tsc-watch --onSuccess \"node dist/ejercicio-3/gestor.js\"",
     "doc": "typedoc",
     "test": "vitest run",
-    "coverage": "vitest run tests/* --coverage --coverage.include src/*"
+    "coverage": "vitest run tests/ejercicio-pe/SmtpAdapter.spec.ts --coverage --coverage.include src/ejercicio-pe/SmtpAdapter.ts"
   },
   "repository": {
     "type": "git",

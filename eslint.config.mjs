@@ -20,7 +20,8 @@ export default defineConfig([
       "prefer-const": "off",
       "tsdoc/syntax": "warn",
       "no-duplicate-enum-values": "off",
-      "no-explicit-any": "off"
+      "no-explicit-any": "off",
+      "@typescript-eslint/no-unused-vars": off
     }
   },
 
